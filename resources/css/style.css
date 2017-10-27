@@ -32,8 +32,10 @@ h4 {
   font-size: 18px;
 }
 .header {
+  /*used ../ to go up one folder (into resources) */
   background-image: url("../images/the-flatiron-building.png");
   background-repeat: no-repeat;
+  /* cover value used to fix background photo spacing issues*/
   background-size: cover;
   color: white;
 }
